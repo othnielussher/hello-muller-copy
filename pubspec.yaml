@@ -1,0 +1,64 @@
+name: hello_muller
+description: A design studio
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # c
+  cupertino_icons: ^1.0.2
+
+  # f
+  flutter_svg: ^2.0.9
+  flextras: ^1.0.0
+
+  # g
+  go_router: ^12.1.1
+  gap: ^3.0.1
+
+  # r
+  responsive_builder: ^0.7.0
+
+  # t
+  textstyle_extensions: ^2.0.0-nullsafety
+
+  # u
+  url_launcher: ^6.2.1
+  url_strategy: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    # weight 300
+    - family: SöhneMono-Buch
+      fonts:
+        - asset: assets/fonts/SöhneMono-Buch.otf
+
+    # weight 400
+    - family: Söhne
+      fonts:
+        - asset: assets/fonts/Söhne-Buch.otf
+        - asset: assets/fonts/Söhne-BuchKursiv.otf
+          style: italic
+
+    # weight 500
+    - family: Söhne-Halbfett
+      fonts:
+        - asset: assets/fonts/Söhne-Halbfett.otf
