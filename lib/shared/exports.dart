@@ -18,4 +18,5 @@ export 'package:hello_muller/shared/images.dart';
 export 'package:hello_muller/widgets/header.dart';
 export 'package:hello_muller/pages/projects.dart';
 export 'package:hello_muller/shared/constants.dart';
+export 'package:hello_muller/widgets/project_card.dart';
 export 'package:hello_muller/widgets/custom_divider.dart';

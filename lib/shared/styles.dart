@@ -11,10 +11,21 @@ class Styles {
   /// fontsize: 16
   static TextStyle body(BuildContext context) {
     return TextStyle(
-      fontWeight: FontWeight.w500,
       fontSize: getValueForScreenType(
         context: context,
         mobile: 16,
+        desktop: 100,
+      ),
+    );
+  }
+
+  /// fontsize: 16
+  static TextStyle body_300(BuildContext context) {
+    return TextStyle(
+      fontFamily: Fonts.font_300,
+      fontSize: getValueForScreenType(
+        context: context,
+        mobile: 14,
         desktop: 100,
       ),
     );
@@ -50,6 +61,18 @@ class Styles {
       fontSize: getValueForScreenType(
         context: context,
         mobile: 22,
+        desktop: 100,
+      ),
+    );
+  }
+
+  /// fontsize: 64
+  static TextStyle h1(BuildContext context) {
+    return TextStyle(
+      fontFamily: 'Söhne-Schmal',
+      fontSize: getValueForScreenType(
+        context: context,
+        mobile: 64,
         desktop: 100,
       ),
     );
