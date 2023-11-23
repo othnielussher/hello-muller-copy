@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
 class ThickDivider extends StatelessWidget {
-  const ThickDivider({super.key});
+  final Color? color;
+  const ThickDivider({super.key, this.color});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 3,
-      color: Colors.black,
+      color: color ?? Colors.black,
       width: double.infinity,
     );
   }
